@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    background-color: white;
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.mainBody
+{
+    width: 400px;
+    background-color: lightblue;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+   
+}
+
+label, select, input, textarea 
+{
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+
+textarea 
+{
+    width: 90%;
+    height: 100px;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover 
+{
+    background-color: #45a049;
+}
+
+.workout {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#workoutList {
+    margin-top: 20px;
+    
+}
+
+
