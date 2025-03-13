@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
-app.set('views', path.join(path.resolve(), 'views')); // Set 'views' folder
+// app.set('views', path.join(path.resolve(), 'views')); // Set 'views' folder
 
 // Define the port number for our server to listen on 
 const PORT = 3000;
